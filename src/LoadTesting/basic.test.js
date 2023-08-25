@@ -1,6 +1,8 @@
 import http from 'k6/http';
 import { sleep } from 'k6';
+import * as base from './base.test.js';
+
 export default function () {
-    http.get('http://localhost:5223/');
+    http.get(base.API_REVERSE_URL);
     sleep(1);
 }

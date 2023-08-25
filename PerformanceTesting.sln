@@ -7,7 +7,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{29E1C6B0-F1C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "src\API\API.csproj", "{E31AD089-607C-4D8F-B67E-EDB68561477F}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LoadTesting", "LoadTesting", "{27F4A404-BE9C-4557-ABD8-1B0C3FE34FBE}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LoadTesting", "LoadTesting", "{D6D5BDC5-5A15-4472-B546-8F8E42658DB4}"
+	ProjectSection(SolutionItems) = preProject
+		src\LoadTesting\base.test.js = src\LoadTesting\base.test.js
+		src\LoadTesting\basic-test.js = src\LoadTesting\basic-test.js
+		src\LoadTesting\smoke-test.js = src\LoadTesting\smoke-test.js
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,7 +30,7 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E31AD089-607C-4D8F-B67E-EDB68561477F} = {29E1C6B0-F1C0-4EB5-9742-A398E033F130}
-		{27F4A404-BE9C-4557-ABD8-1B0C3FE34FBE} = {29E1C6B0-F1C0-4EB5-9742-A398E033F130}
+		{D6D5BDC5-5A15-4472-B546-8F8E42658DB4} = {29E1C6B0-F1C0-4EB5-9742-A398E033F130}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D8FF2B0B-081E-4C26-9D83-4EDD5406EE0E}
